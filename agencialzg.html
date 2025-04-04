@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia LZG</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #111111;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: #111;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    section.hero {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    section.servicios {
+      padding: 3rem 2rem;
+      background-color: #f9f9f9;
+    }
+
+    .servicios h3 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+
+    .servicios-lista {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .servicio {
+      background-color: white;
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section.galeria {
+      padding: 3rem 2rem;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .galeria h3 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .galeria-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* Tres columnas */
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .galeria-grid img {
+      width: 100%;
+      border-radius: 1rem;
+      object-fit: cover;
+      height: 300px;
+      /* Altura fija para las imágenes */
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #111;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Agencia LZG</h1>
+    <p>Producción visual y marketing especializado en negocios de comida</p>
+  </header>
+
+  <section class="hero">
+    <h2>Impulsa tu marca con estilo</h2>
+    <p>Agencia LZG te ayuda a destacar con contenido profesional, branding y estrategias que atraen a más clientes.</p>
+  </section>
+
+  <section class="servicios">
+    <h3>Servicios</h3>
+    <div class="servicios-lista">
+      <div class="servicio">
+        <h4>Fotografía de platillos</h4>
+        <p>Capturamos tus productos con estilo profesional que abre el apetito.</p>
+      </div>
+      <div class="servicio">
+        <h4>Videos para redes</h4>
+        <p>Reels, TikToks y videos promocionales con estética cinematográfica.</p>
+      </div>
+      <div class="servicio">
+        <h4>Diseño de menús</h4>
+        <p>Menús digitales e impresos adaptados a tu estilo y marca.</p>
+      </div>
+      <div class="servicio">
+        <h4>Gestión de redes</h4>
+        <p>Contenido visual, publicaciones y estrategias para crecer en redes sociales.</p>
+      </div>
+      <div class="servicio">
+        <h4>Publicidad digital</h4>
+        <p>Campañas en Facebook e Instagram para atraer más clientes a tu local.</p>
+      </div>
+      <div class="servicio">
+        <h4>Consultoría de marketing</h4>
+        <p>Ayudamos a tu negocio a estructurar estrategias de marketing efectivas para aumentar ventas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="galeria">
+    <h3>Galería de trabajos</h3>
+    <div class="galeria-grid">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=80" alt="Pizza artesanal">
+      <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=500&q=80" alt="Plato elegante">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=500&q=80" alt="Hamburguesa gourmet">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Agencia LZG. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>
